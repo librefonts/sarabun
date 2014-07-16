@@ -1,0 +1,2609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=4 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=4 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="ccmp"/>
+        <Feature>
+          <!-- LookupCount=10 -->
+          <LookupListIndex index="0" value="52"/>
+          <LookupListIndex index="1" value="53"/>
+          <LookupListIndex index="2" value="54"/>
+          <LookupListIndex index="3" value="55"/>
+          <LookupListIndex index="4" value="56"/>
+          <LookupListIndex index="5" value="57"/>
+          <LookupListIndex index="6" value="58"/>
+          <LookupListIndex index="7" value="59"/>
+          <LookupListIndex index="8" value="60"/>
+          <LookupListIndex index="9" value="61"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="frac"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=27 -->
+          <LookupListIndex index="0" value="25"/>
+          <LookupListIndex index="1" value="26"/>
+          <LookupListIndex index="2" value="27"/>
+          <LookupListIndex index="3" value="28"/>
+          <LookupListIndex index="4" value="29"/>
+          <LookupListIndex index="5" value="30"/>
+          <LookupListIndex index="6" value="31"/>
+          <LookupListIndex index="7" value="32"/>
+          <LookupListIndex index="8" value="33"/>
+          <LookupListIndex index="9" value="34"/>
+          <LookupListIndex index="10" value="35"/>
+          <LookupListIndex index="11" value="36"/>
+          <LookupListIndex index="12" value="37"/>
+          <LookupListIndex index="13" value="38"/>
+          <LookupListIndex index="14" value="39"/>
+          <LookupListIndex index="15" value="40"/>
+          <LookupListIndex index="16" value="41"/>
+          <LookupListIndex index="17" value="42"/>
+          <LookupListIndex index="18" value="43"/>
+          <LookupListIndex index="19" value="44"/>
+          <LookupListIndex index="20" value="45"/>
+          <LookupListIndex index="21" value="46"/>
+          <LookupListIndex index="22" value="47"/>
+          <LookupListIndex index="23" value="48"/>
+          <LookupListIndex index="24" value="49"/>
+          <LookupListIndex index="25" value="50"/>
+          <LookupListIndex index="26" value="51"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="rlig"/>
+        <Feature>
+          <!-- LookupCount=24 -->
+          <LookupListIndex index="0" value="1"/>
+          <LookupListIndex index="1" value="2"/>
+          <LookupListIndex index="2" value="3"/>
+          <LookupListIndex index="3" value="4"/>
+          <LookupListIndex index="4" value="5"/>
+          <LookupListIndex index="5" value="6"/>
+          <LookupListIndex index="6" value="7"/>
+          <LookupListIndex index="7" value="8"/>
+          <LookupListIndex index="8" value="9"/>
+          <LookupListIndex index="9" value="10"/>
+          <LookupListIndex index="10" value="11"/>
+          <LookupListIndex index="11" value="12"/>
+          <LookupListIndex index="12" value="13"/>
+          <LookupListIndex index="13" value="14"/>
+          <LookupListIndex index="14" value="15"/>
+          <LookupListIndex index="15" value="16"/>
+          <LookupListIndex index="16" value="17"/>
+          <LookupListIndex index="17" value="18"/>
+          <LookupListIndex index="18" value="19"/>
+          <LookupListIndex index="19" value="20"/>
+          <LookupListIndex index="20" value="21"/>
+          <LookupListIndex index="21" value="22"/>
+          <LookupListIndex index="22" value="23"/>
+          <LookupListIndex index="23" value="24"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=65 -->
+      <Lookup index="0">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="five">
+            <Ligature components="slash,six" glyph="uni215A"/>
+            <Ligature components="slash,eight" glyph="fiveeighths"/>
+            <Ligature components="fraction,six" glyph="uni215A"/>
+            <Ligature components="fraction,eight" glyph="fiveeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="four">
+            <Ligature components="slash,five" glyph="uni2158"/>
+            <Ligature components="fraction,five" glyph="uni2158"/>
+          </LigatureSet>
+          <LigatureSet glyph="one">
+            <Ligature components="slash,two" glyph="onehalf"/>
+            <Ligature components="slash,three" glyph="onethird"/>
+            <Ligature components="slash,four" glyph="onequarter"/>
+            <Ligature components="slash,five" glyph="uni2155"/>
+            <Ligature components="slash,six" glyph="uni2159"/>
+            <Ligature components="slash,eight" glyph="oneeighth"/>
+            <Ligature components="fraction,two" glyph="onehalf"/>
+            <Ligature components="fraction,three" glyph="onethird"/>
+            <Ligature components="fraction,four" glyph="onequarter"/>
+            <Ligature components="fraction,five" glyph="uni2155"/>
+            <Ligature components="fraction,six" glyph="uni2159"/>
+            <Ligature components="fraction,eight" glyph="oneeighth"/>
+          </LigatureSet>
+          <LigatureSet glyph="seven">
+            <Ligature components="slash,eight" glyph="seveneighths"/>
+            <Ligature components="fraction,eight" glyph="seveneighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="three">
+            <Ligature components="slash,four" glyph="threequarters"/>
+            <Ligature components="slash,five" glyph="uni2157"/>
+            <Ligature components="slash,eight" glyph="threeeighths"/>
+            <Ligature components="fraction,four" glyph="threequarters"/>
+            <Ligature components="fraction,five" glyph="uni2157"/>
+            <Ligature components="fraction,eight" glyph="threeeighths"/>
+          </LigatureSet>
+          <LigatureSet glyph="two">
+            <Ligature components="slash,three" glyph="twothirds"/>
+            <Ligature components="slash,five" glyph="uni2156"/>
+            <Ligature components="fraction,three" glyph="twothirds"/>
+            <Ligature components="fraction,five" glyph="uni2156"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="uni0E24">
+            <Ligature components="uni0E32" glyph="uni0E24.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E24.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E26">
+            <Ligature components="uni0E32" glyph="uni0E26.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E26.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E4F">
+            <Ligature components="quotedbl" glyph="uni0E4F.liga"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E0D"/>
+            <Glyph value="uni0E10"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48"/>
+            <Glyph value="uni0E49"/>
+            <Glyph value="uni0E4A"/>
+            <Glyph value="uni0E4B"/>
+            <Glyph value="uni0E4C"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E31"/>
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E47"/>
+            <Glyph value="uni0E4D"/>
+            <Glyph value="uni0E4E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E31"/>
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E4D"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="7">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E34.alt1"/>
+            <Glyph value="uni0E35.alt1"/>
+            <Glyph value="uni0E36.alt1"/>
+            <Glyph value="uni0E37.alt1"/>
+            <Glyph value="uni0E31.alt1"/>
+            <Glyph value="uni0E4D.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="64"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="8">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E0E"/>
+            <Glyph value="uni0E0F"/>
+            <Glyph value="uni0E24"/>
+            <Glyph value="uni0E26"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="9">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="10">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="11">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E33.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="12">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="14">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E0E"/>
+            <Glyph value="uni0E0F"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E38.alt1"/>
+            <Glyph value="uni0E39.alt1"/>
+            <Glyph value="uni0E3A.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="15">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E2C"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E47"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="16">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E2C.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E47"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="17">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="18">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="P">
+            <Ligature components="S,K,period,D,e,s,i,g,n,parenleft,c,parenright" glyph="PSK"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="19">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB6"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EAC"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB7"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EAD"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="20">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EC6"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EC7"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="21">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="22">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ED8"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ED9"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="23">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="24">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="25">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="uni0E24">
+            <Ligature components="uni0E32" glyph="uni0E24.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E24.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E26">
+            <Ligature components="uni0E32" glyph="uni0E26.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E26.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E4F">
+            <Ligature components="quotedbl" glyph="uni0E4F.liga"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="26">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E0D"/>
+            <Glyph value="uni0E10"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="27">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48"/>
+            <Glyph value="uni0E49"/>
+            <Glyph value="uni0E4A"/>
+            <Glyph value="uni0E4B"/>
+            <Glyph value="uni0E4C"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="28">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="29">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E31"/>
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E47"/>
+            <Glyph value="uni0E4D"/>
+            <Glyph value="uni0E4E"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="30">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E31"/>
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E4D"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="31">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E34.alt1"/>
+            <Glyph value="uni0E35.alt1"/>
+            <Glyph value="uni0E36.alt1"/>
+            <Glyph value="uni0E37.alt1"/>
+            <Glyph value="uni0E31.alt1"/>
+            <Glyph value="uni0E4D.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="64"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="32">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E0E"/>
+            <Glyph value="uni0E0F"/>
+            <Glyph value="uni0E24"/>
+            <Glyph value="uni0E26"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="33">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="34">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="35">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E33.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="36">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E38"/>
+            <Glyph value="uni0E39"/>
+            <Glyph value="uni0E3A"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="37">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt1"/>
+            <Glyph value="uni0E49.alt1"/>
+            <Glyph value="uni0E4A.alt1"/>
+            <Glyph value="uni0E4B.alt1"/>
+            <Glyph value="uni0E4C.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E1B"/>
+            <Glyph value="uni0E1D"/>
+            <Glyph value="uni0E1F"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="38">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E0E"/>
+            <Glyph value="uni0E0F"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E38.alt1"/>
+            <Glyph value="uni0E39.alt1"/>
+            <Glyph value="uni0E3A.alt1"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="39">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E2C"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E34"/>
+            <Glyph value="uni0E35"/>
+            <Glyph value="uni0E36"/>
+            <Glyph value="uni0E37"/>
+            <Glyph value="uni0E47"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="40">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0" Format="1">
+            <Glyph value="uni0E2C.alt1"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="uni0E47"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="62"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="41">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="2">
+            <Glyph value="uni0E48.alt2"/>
+            <Glyph value="uni0E49.alt2"/>
+            <Glyph value="uni0E4A.alt2"/>
+            <Glyph value="uni0E4B.alt2"/>
+            <Glyph value="uni0E4C.alt2"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="uni0E33"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="63"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="42">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="P">
+            <Ligature components="S,K,period,D,e,s,i,g,n,parenleft,c,parenright" glyph="PSK"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="43">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB6"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EAC"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB7"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EAD"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="44">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EC6"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EC7"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="45">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="46">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ED8"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ED9"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="47">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="48">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="49">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E24">
+            <Ligature components="uni0E32" glyph="uni0E24.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E24.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E26">
+            <Ligature components="uni0E32" glyph="uni0E26.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E26.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E4F">
+            <Ligature components="quotedbl" glyph="uni0E4F.liga"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="50">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E24">
+            <Ligature components="uni0E32" glyph="uni0E24.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E24.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E26">
+            <Ligature components="uni0E32" glyph="uni0E26.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E26.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E4F">
+            <Ligature components="quotedbl" glyph="uni0E4F.liga"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="51">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="f">
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E24">
+            <Ligature components="uni0E32" glyph="uni0E24.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E24.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E26">
+            <Ligature components="uni0E32" glyph="uni0E26.liga"/>
+            <Ligature components="uni0E45" glyph="uni0E26.liga"/>
+          </LigatureSet>
+          <LigatureSet glyph="uni0E4F">
+            <Ligature components="quotedbl" glyph="uni0E4F.liga"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="52">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="C">
+            <Ligature components="acutecomb" glyph="Cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="N">
+            <Ligature components="tildecomb" glyph="Ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="acutecomb" glyph="cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="tildecomb" glyph="ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="53">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="54">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="C">
+            <Ligature components="acutecomb" glyph="Cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="N">
+            <Ligature components="tildecomb" glyph="Ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="acutecomb" glyph="cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="tildecomb" glyph="ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="55">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="56">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="C">
+            <Ligature components="acutecomb" glyph="Cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="N">
+            <Ligature components="tildecomb" glyph="Ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="acutecomb" glyph="cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="tildecomb" glyph="ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="57">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="58">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="C">
+            <Ligature components="acutecomb" glyph="Cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="N">
+            <Ligature components="tildecomb" glyph="Ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="acutecomb" glyph="cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="tildecomb" glyph="ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="59">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="60">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="A">
+            <Ligature components="hookabovecomb" glyph="uni1EA2"/>
+            <Ligature components="tildecomb" glyph="Atilde"/>
+            <Ligature components="acutecomb" glyph="Aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA0"/>
+            <Ligature components="gravecomb" glyph="Agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="C">
+            <Ligature components="acutecomb" glyph="Cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="E">
+            <Ligature components="hookabovecomb" glyph="uni1EBA"/>
+            <Ligature components="tildecomb" glyph="uni1EBC"/>
+            <Ligature components="acutecomb" glyph="Eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB8"/>
+            <Ligature components="gravecomb" glyph="Egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="hookabovecomb" glyph="uni1EC8"/>
+            <Ligature components="tildecomb" glyph="Itilde"/>
+            <Ligature components="acutecomb" glyph="Iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECA"/>
+            <Ligature components="gravecomb" glyph="Igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="N">
+            <Ligature components="tildecomb" glyph="Ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="O">
+            <Ligature components="hookabovecomb" glyph="uni1ECE"/>
+            <Ligature components="tildecomb" glyph="Otilde"/>
+            <Ligature components="acutecomb" glyph="Oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECC"/>
+            <Ligature components="gravecomb" glyph="Ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="U">
+            <Ligature components="hookabovecomb" glyph="uni1EE6"/>
+            <Ligature components="tildecomb" glyph="Utilde"/>
+            <Ligature components="acutecomb" glyph="Uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE4"/>
+            <Ligature components="gravecomb" glyph="Ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="Y">
+            <Ligature components="hookabovecomb" glyph="uni1EF6"/>
+            <Ligature components="tildecomb" glyph="uni1EF8"/>
+            <Ligature components="acutecomb" glyph="Yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF4"/>
+            <Ligature components="gravecomb" glyph="Ygrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="a">
+            <Ligature components="hookabovecomb" glyph="uni1EA3"/>
+            <Ligature components="tildecomb" glyph="atilde"/>
+            <Ligature components="acutecomb" glyph="aacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EA1"/>
+            <Ligature components="gravecomb" glyph="agrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="acutecomb" glyph="cacute"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="hookabovecomb" glyph="uni1EBB"/>
+            <Ligature components="tildecomb" glyph="uni1EBD"/>
+            <Ligature components="acutecomb" glyph="eacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EB9"/>
+            <Ligature components="gravecomb" glyph="egrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="hookabovecomb" glyph="uni1EC9"/>
+            <Ligature components="tildecomb" glyph="itilde"/>
+            <Ligature components="acutecomb" glyph="iacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECB"/>
+            <Ligature components="gravecomb" glyph="igrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="tildecomb" glyph="ntilde"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="hookabovecomb" glyph="uni1ECF"/>
+            <Ligature components="tildecomb" glyph="otilde"/>
+            <Ligature components="acutecomb" glyph="oacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1ECD"/>
+            <Ligature components="gravecomb" glyph="ograve"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="hookabovecomb" glyph="uni1EE7"/>
+            <Ligature components="tildecomb" glyph="utilde"/>
+            <Ligature components="acutecomb" glyph="uacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE5"/>
+            <Ligature components="gravecomb" glyph="ugrave"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="hookabovecomb" glyph="uni1EF7"/>
+            <Ligature components="tildecomb" glyph="uni1EF9"/>
+            <Ligature components="acutecomb" glyph="yacute"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF5"/>
+            <Ligature components="gravecomb" glyph="ygrave"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="61">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="Abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB2"/>
+            <Ligature components="tildecomb" glyph="uni1EB4"/>
+            <Ligature components="acutecomb" glyph="uni1EAE"/>
+            <Ligature components="gravecomb" glyph="uni1EB0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA8"/>
+            <Ligature components="tildecomb" glyph="uni1EAA"/>
+            <Ligature components="acutecomb" glyph="uni1EA4"/>
+            <Ligature components="gravecomb" glyph="uni1EA6"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC2"/>
+            <Ligature components="tildecomb" glyph="uni1EC4"/>
+            <Ligature components="acutecomb" glyph="uni1EBE"/>
+            <Ligature components="gravecomb" glyph="uni1EC0"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED4"/>
+            <Ligature components="tildecomb" glyph="uni1ED6"/>
+            <Ligature components="acutecomb" glyph="uni1ED0"/>
+            <Ligature components="gravecomb" glyph="uni1ED2"/>
+          </LigatureSet>
+          <LigatureSet glyph="Ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDE"/>
+            <Ligature components="tildecomb" glyph="uni1EE0"/>
+            <Ligature components="acutecomb" glyph="uni1EDA"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE2"/>
+            <Ligature components="gravecomb" glyph="uni1EDC"/>
+          </LigatureSet>
+          <LigatureSet glyph="Uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EEC"/>
+            <Ligature components="tildecomb" glyph="uni1EEE"/>
+            <Ligature components="acutecomb" glyph="uni1EE8"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF0"/>
+            <Ligature components="gravecomb" glyph="uni1EEA"/>
+          </LigatureSet>
+          <LigatureSet glyph="abreve">
+            <Ligature components="hookabovecomb" glyph="uni1EB3"/>
+            <Ligature components="tildecomb" glyph="uni1EB5"/>
+            <Ligature components="acutecomb" glyph="uni1EAF"/>
+            <Ligature components="gravecomb" glyph="uni1EB1"/>
+          </LigatureSet>
+          <LigatureSet glyph="acircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EA9"/>
+            <Ligature components="tildecomb" glyph="uni1EAB"/>
+            <Ligature components="acutecomb" glyph="uni1EA5"/>
+            <Ligature components="gravecomb" glyph="uni1EA7"/>
+          </LigatureSet>
+          <LigatureSet glyph="ecircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1EC3"/>
+            <Ligature components="tildecomb" glyph="uni1EC5"/>
+            <Ligature components="acutecomb" glyph="uni1EBF"/>
+            <Ligature components="gravecomb" glyph="uni1EC1"/>
+          </LigatureSet>
+          <LigatureSet glyph="ocircumflex">
+            <Ligature components="hookabovecomb" glyph="uni1ED5"/>
+            <Ligature components="tildecomb" glyph="uni1ED7"/>
+            <Ligature components="acutecomb" glyph="uni1ED1"/>
+            <Ligature components="gravecomb" glyph="uni1ED3"/>
+          </LigatureSet>
+          <LigatureSet glyph="ohorn">
+            <Ligature components="hookabovecomb" glyph="uni1EDF"/>
+            <Ligature components="tildecomb" glyph="uni1EE1"/>
+            <Ligature components="acutecomb" glyph="uni1EDB"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EE3"/>
+            <Ligature components="gravecomb" glyph="uni1EDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="uhorn">
+            <Ligature components="hookabovecomb" glyph="uni1EED"/>
+            <Ligature components="tildecomb" glyph="uni1EEF"/>
+            <Ligature components="acutecomb" glyph="uni1EE9"/>
+            <Ligature components="dotbelowcomb" glyph="uni1EF1"/>
+            <Ligature components="gravecomb" glyph="uni1EEB"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="62">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="a" out="uni0E38"/>
+          <Substitution in="b" out="uni0E39"/>
+          <Substitution in="c" out="uni0E3A"/>
+          <Substitution in="uni0E0D" out="uni0E0D.alt1"/>
+          <Substitution in="uni0E0E" out="uni0E0E.alt1"/>
+          <Substitution in="uni0E0F" out="uni0E0F.alt1"/>
+          <Substitution in="uni0E10" out="uni0E10.alt1"/>
+          <Substitution in="uni0E2C" out="uni0E2C.alt1"/>
+          <Substitution in="uni0E31" out="uni0E31.alt1"/>
+          <Substitution in="uni0E33" out="uni0E33.alt1"/>
+          <Substitution in="uni0E34" out="uni0E34.alt1"/>
+          <Substitution in="uni0E35" out="uni0E35.alt1"/>
+          <Substitution in="uni0E36" out="uni0E36.alt1"/>
+          <Substitution in="uni0E37" out="uni0E37.alt1"/>
+          <Substitution in="uni0E38" out="uni0E38.alt1"/>
+          <Substitution in="uni0E39" out="uni0E39.alt1"/>
+          <Substitution in="uni0E3A" out="uni0E3A.alt1"/>
+          <Substitution in="uni0E47" out="uni0E47.alt1"/>
+          <Substitution in="uni0E48" out="uni0E48.alt2"/>
+          <Substitution in="uni0E48.alt1" out="uni0E48.alt3"/>
+          <Substitution in="uni0E48.alt2" out="uni0E48.alt1"/>
+          <Substitution in="uni0E49" out="uni0E49.alt2"/>
+          <Substitution in="uni0E49.alt1" out="uni0E49.alt3"/>
+          <Substitution in="uni0E49.alt2" out="uni0E49.alt1"/>
+          <Substitution in="uni0E4A" out="uni0E4A.alt2"/>
+          <Substitution in="uni0E4A.alt1" out="uni0E4A.alt3"/>
+          <Substitution in="uni0E4A.alt2" out="uni0E4A.alt1"/>
+          <Substitution in="uni0E4B" out="uni0E4B.alt2"/>
+          <Substitution in="uni0E4B.alt1" out="uni0E4B.alt3"/>
+          <Substitution in="uni0E4B.alt2" out="uni0E4B.alt1"/>
+          <Substitution in="uni0E4C" out="uni0E4C.alt2"/>
+          <Substitution in="uni0E4C.alt1" out="uni0E4C.alt3"/>
+          <Substitution in="uni0E4C.alt2" out="uni0E4C.alt1"/>
+          <Substitution in="uni0E4D" out="uni0E4D.alt1"/>
+          <Substitution in="uni0E4E" out="uni0E4E.alt1"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="63">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="uni0E38" out="a"/>
+          <Substitution in="uni0E39" out="b"/>
+          <Substitution in="uni0E3A" out="c"/>
+          <Substitution in="uni0E48.alt2" out="uni0E48"/>
+          <Substitution in="uni0E49.alt2" out="uni0E49"/>
+          <Substitution in="uni0E4A.alt2" out="uni0E4A"/>
+          <Substitution in="uni0E4B.alt2" out="uni0E4B"/>
+          <Substitution in="uni0E4C.alt2" out="uni0E4C"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="64">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="uni0E48.alt2" out="uni0E48.alt3"/>
+          <Substitution in="uni0E49.alt2" out="uni0E49.alt3"/>
+          <Substitution in="uni0E4A.alt2" out="uni0E4A.alt3"/>
+          <Substitution in="uni0E4B.alt2" out="uni0E4B.alt3"/>
+          <Substitution in="uni0E4C.alt2" out="uni0E4C.alt3"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

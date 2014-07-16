@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GDEF>
+    <Version value="1.0"/>
+    <GlyphClassDef Format="2">
+      <ClassDef glyph="fi" class="2"/>
+      <ClassDef glyph="fl" class="2"/>
+      <ClassDef glyph="uni0E24.liga" class="2"/>
+      <ClassDef glyph="uni0E26.liga" class="2"/>
+    </GlyphClassDef>
+    <LigCaretList>
+      <Coverage Format="1">
+        <Glyph value="fi"/>
+        <Glyph value="fl"/>
+        <Glyph value="uni0E24.liga"/>
+        <Glyph value="uni0E26.liga"/>
+      </Coverage>
+      <!-- LigGlyphCount=4 -->
+      <LigGlyph index="0">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="228"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="1">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="228"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="2">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="394"/>
+        </CaretValue>
+      </LigGlyph>
+      <LigGlyph index="3">
+        <!-- CaretCount=1 -->
+        <CaretValue index="0" Format="1">
+          <Coordinate value="425"/>
+        </CaretValue>
+      </LigGlyph>
+    </LigCaretList>
+  </GDEF>
+
+</ttFont>
